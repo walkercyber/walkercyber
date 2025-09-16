@@ -1,4 +1,4 @@
-## Hi there 🙋🏽‍♀👋
+## Hi there👋
 
 I'm currently studying .NET Cloud Developer at IT-Högskolan to become a master in full stack development.
 
