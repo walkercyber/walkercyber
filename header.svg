@@ -1,0 +1,42 @@
+<svg viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="260" rx="20" fill="#0a0613"/>
+
+  <path d="M0 200 Q150 150 300 200 T600 200 T900 200 T1200 200"
+        stroke="#7e3ff2" stroke-width="2" fill="none" opacity="0.3">
+    <animate attributeName="d" dur="2.5s" repeatCount="indefinite"
+      values="M0 200 Q150 130 300 200 T600 200 T900 200 T1200 200;
+              M0 200 Q150 250 300 200 T600 200 T900 200 T1200 200;
+              M0 200 Q150 130 300 200 T600 200 T900 200 T1200 200"/>
+  </path>
+
+  <g fill="#bf91f3">
+    <circle cx="200" cy="140" r="3">
+      <animate attributeName="r" values="3;6;3" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="100" r="3">
+      <animate attributeName="r" values="3;6;3" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="170" r="3">
+      <animate attributeName="r" values="3;6;3" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="110" r="3">
+      <animate attributeName="r" values="3;6;3" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="150" r="3">
+      <animate attributeName="r" values="3;6;3" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- title -->
+  <text x="50%" y="125" text-anchor="middle"
+        font-family="Fira Code, monospace"
+        font-size="34" font-weight="700"
+        fill="#bf91f3">
+    Isabella Daood | DevOps Engineer
+  </text>
+  <text x="50%" y="160" text-anchor="middle"
+        font-family="Fira Code, monospace"
+        font-size="16" fill="#d8cfff">
+    Cloud · CI/CD · Infrastructure as Code · Automation
+  </text>
+</svg>
