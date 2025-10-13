@@ -1,7 +1,7 @@
 <!-- walkercyber/README.md -->
 
 <p align="center">
-  <img src="./header.svg" alt="Isabella Daood | DevOps Engineer" />
+  <img src="./header.svg" alt="Isabella | DevOps Engineer" />
 </p>
 
 <p align="center">
