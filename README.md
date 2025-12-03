@@ -25,12 +25,13 @@ My mind is curious and a bit lazy (in a good way 😋), and that is why I’m al
 ---
 
 <p align="center">
-  <img src="https://github-profile-summary-cards-ashy.vercel.app/api/cards/profile-details?username=walkercyber&theme=cryptonaut&hide_border=true" height="180em" />
+  <img src="https://raw.githubusercontent.com/walkercyber/walkercyber/main/assets/contributions.svg" width="550" />
 </p>
 
+---
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=walkercyber&show_icons=true&theme=transparent&bg_color=00000000&title_color=bf91f3&text_color=c9d1d9&icon_color=bf91f3&hide_border=true&ring_color=bf91f3&border_radius=10" height="180em" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=walkercyber&layout=compact&theme=transparent&bg_color=00000000&title_color=bf91f3&text_color=c9d1d9&hide_border=true&border_radius=10" height="180em" />
+  <img src="https://raw.githubusercontent.com/walkercyber/walkercyber/main/assets/languages.svg" width="550" />
 </p>
 
 ---
