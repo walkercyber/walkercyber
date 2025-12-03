@@ -37,7 +37,7 @@
   <rect x="0" y="0" width="600" height="230" rx="22" ry="22" fill="url(#bgGradLang)"/>
   <rect x="12" y="12" width="576" height="206" rx="20" ry="20"
         fill="#05030A" stroke="#3B1D63" stroke-width="1.5"/>
->
+
   <rect x="12" y="12" width="576" height="4" fill="#BF91F3"/>
 
   <text x="30" y="48" fill="#E5E7EB"
@@ -57,7 +57,7 @@
         font-size="12" text-anchor="end">
     40%
   </text>
-  
+
   <text x="40" y="135" fill="#E5E7EB"
         font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
         font-size="13">
