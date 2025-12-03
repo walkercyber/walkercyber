@@ -1,33 +1,51 @@
+
 <svg viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="260" rx="20" fill="#0a0613"/>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b0516"/>
+      <stop offset="100%" stop-color="#070312"/>
+    </linearGradient>
+
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9c6bff"/>
+      <stop offset="50%" stop-color="#bf91f3"/>
+      <stop offset="100%" stop-color="#d7b3ff"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="28" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="260" rx="26" fill="url(#bg)" />
 
   <path d="M0 200 Q150 150 300 200 T600 200 T900 200 T1200 200"
-        stroke="#7e3ff2" stroke-width="2" fill="none" opacity="0.3">
-    <animate attributeName="d" dur="2.5s" repeatCount="indefinite"
+        stroke="url(#neon)" stroke-width="2.5" fill="none" opacity="0.55" filter="url(#softGlow)">
+    <animate attributeName="d" dur="3.2s" repeatCount="indefinite"
       values="M0 200 Q150 130 300 200 T600 200 T900 200 T1200 200;
-              M0 200 Q150 250 300 200 T600 200 T900 200 T1200 200;
+              M0 200 Q150 240 300 200 T600 200 T900 200 T1200 200;
               M0 200 Q150 130 300 200 T600 200 T900 200 T1200 200"/>
   </path>
 
-  <g fill="#bf91f3">
+  <g fill="url(#neon)" filter="url(#softGlow)">
     <circle cx="200" cy="140" r="3">
-      <animate attributeName="r" values="3;6;3" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="3;7;3" dur="1.7s" repeatCount="indefinite"/>
     </circle>
     <circle cx="400" cy="100" r="3">
-      <animate attributeName="r" values="3;6;3" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="3;7;3" dur="1.25s" repeatCount="indefinite"/>
     </circle>
     <circle cx="600" cy="170" r="3">
-      <animate attributeName="r" values="3;6;3" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="3;7;3" dur="2.1s" repeatCount="indefinite"/>
     </circle>
     <circle cx="800" cy="110" r="3">
-      <animate attributeName="r" values="3;6;3" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="3;7;3" dur="1.6s" repeatCount="indefinite"/>
     </circle>
     <circle cx="1000" cy="150" r="3">
-      <animate attributeName="r" values="3;6;3" dur="1.4s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="3;7;3" dur="1.45s" repeatCount="indefinite"/>
     </circle>
   </g>
 
-  <!-- title -->
   <text x="50%" y="125" text-anchor="middle"
         font-family="Fira Code, monospace"
         font-size="34" font-weight="700"
@@ -40,3 +58,5 @@
     Cloud · CI/CD · Infrastructure as Code · Automation
   </text>
 </svg>
+
+
