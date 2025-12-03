@@ -1,4 +1,6 @@
 name: Update Languages Card
+permissions:
+  contents: write
 
 on:
   schedule:
