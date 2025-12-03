@@ -1,11 +1,6 @@
 <!-- walkercyber/README.md -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/walkercyber/walkercyber/main/assets/avatar.svg" width="200" />
-</p>
-
-
-<p align="center">
   <img src="./header.svg" alt="Isabella | DevOps Engineer" />
 </p>
 
